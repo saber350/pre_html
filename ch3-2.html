@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-Tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端網頁設計html語法</title>
+</head>
+<body>
+    
+<h1>預先格式化區塊</h1>
+<!-- 使用 <p> 時，會自動排版，忽略換行和多餘空白。若要保留原始格式，可用 <pre>，會保留換行與空格，並以等寬字型顯示。
+兩者差異來自 white-space 屬性：
+<p> 預設為 normal，忽略換行、合併空白。
+<pre> 預設為 pre，保留所有空格與換行。
+-->
+<pre>
+    Vegetable
+        炒空心菜
+            花椰菜
+            <hr>
+    Drink
+            紅茶
+                奶茶
+</pre>
+
+<h1>文字樣式元素</h1>
+<h2> <em>李白</em><i>《靜夜思》</i></h2>
+<pre>
+<h3><s>床前</s><small>明月光</small>，疑是<strong>地上霜</strong>。</h3>
+<u>舉頭</u><b>望明月</b>，<mark>低頭思</mark><del>故鄉。</del>。
+</pre>
+
+<h1>上標、下標</h1>
+<pre>
+X<sub>2</sub>
+X<sup>2</sup>
+</pre>
+
+<h1>旁註標記</h1>
+    <h2><ruby>私<rt>watashi</rt></ruby>
+        <ruby>は<rt>ha</rt></ruby>
+        <ruby>張<rt>cho</rt></ruby>
+        <ruby>で<rt>de</rt></ruby>
+        <ruby>す<rt>su</rt></ruby></h2> 
+
+<h1>顯示電腦程式碼</h1>
+<code>語法:print("hello")</code>
+<pre>
+    <code>
+        h1{
+            color:#000;
+            font-size:20px
+        }
+    </code>
+</pre>
+
+</body>
+</html>
